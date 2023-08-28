@@ -1,0 +1,27 @@
+.bestProductCard {
+    text-align: center;
+}
+
+.bestProductCard img {
+    min-height: 170px;
+}
+
+
+@media (max-width: 768px) {
+    .bestProductCard img {
+        max-width: 300px;
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bestProductCard img {
+        min-height: 180px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bestProductCard img {
+        min-height: 260px;
+    }
+}

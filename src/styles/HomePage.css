@@ -1,0 +1,31 @@
+.carousel {
+    margin-top: 15px!important;
+}
+
+.fpCaro {
+    margin-top: 15px!important;
+}
+
+.fpCaro img {
+    height: 30rem;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.rec {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    padding: 50px 20px 0px 20px;
+    /* font-size: 75px; */
+    background: linear-gradient(to right, rgb(17, 255, 0), rgba(6, 56, 30, 0.827), rgb(0, 255, 72));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 768px or lower */
+@media (max-width: 768px) {
+    .fpCaro img {
+        max-height: 300px;
+    }
+}

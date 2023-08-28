@@ -1,0 +1,60 @@
+.mainLogo {
+    border-radius: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.mainLogo:hover {
+    transform: translateX(25px);
+}
+
+.mainLogoShort {
+    width: 80%;
+}
+
+.fr {
+  width: 100%;
+}
+
+.naviLink {
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+}
+.naviLink:hover {
+    font-size: 22px;
+    color: rgb(223, 240, 217);
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+}
+
+.naviLink:hover {
+    transform: translate3d(4px, 4px, 8px);
+}
+
+.naviBar {
+    margin: 20px;
+}
+
+.flexBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px!important;
+}
+
+.gIcon {
+    width: 100px;
+    height: 100px;
+}
+
+@media (min-width: 768px) {
+    .naviLink {
+        padding: 35px;
+    }
+}

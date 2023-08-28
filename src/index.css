@@ -1,13 +1,94 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Varela Round', sans-serif!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white!important;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.productCard {
+  background-color: rgb(25, 25, 25)!important;
+  display: inline;
+  margin-top: 25px;
+  color: rgb(196, 196, 196);
+}
+
+.productCard:hover {
+  color: white;
+  top: -7px;
+  left: 7px;
+  box-shadow: -7px 7px 3px rgb(19, 19, 19); 
+}
+
+.productCard:hover .productCardImg {
+  border: 3px solid;
+  border-image: linear-gradient(to right, #2c3e50, #27ae60, #2c3e50);
+  border-image-slice: 1;
+}
+
+.priceText {
+  color: rgb(188, 148, 178);
+}
+
+.productLink {
+  text-decoration: none!important;
+  color: white;
+  display: inline;
+}
+
+.shortProductDes {
+  margin-top: 15px;
+}
+
+.carousel-indicators {
+  position: absolute;
+}
+
+.carousel-indicators button {
+  padding: 2px 20px!important;
+  background-color: rgb(184, 255, 231)!important;
+  border-radius: 10px 25px 10px 30px;
+}
+
+.fpCaro .carousel-indicators {
+  top: 300px;
+}
+
+.recProductCaro .carousel-indicators {
+  top: 1260px;
+}
+
+.carousel-control-prev-icon {
+  border: 4px solid rgb(48, 73, 39);
+  padding: 20px;
+  opacity: 90%;
+  border-radius: 15px;
+}
+
+.carousel-control-next-icon {
+  border: 5px solid rgb(48, 73, 39);
+  padding: 20px;
+  opacity: 90%;
+  border-radius: 15px;
+}
+
+
+@media (min-width: 768px) {
+  .fpCaro .carousel-indicators {
+    top: 480px;
+  }
+  .recProductCaro .carousel-indicators {
+    top: 260px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .recProductCaro .carousel-indicators {
+    top: 300px;
+  }
 }

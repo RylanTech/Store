@@ -1,0 +1,32 @@
+.recProductCaro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.recProductCaro img {
+    min-height: 180px;
+}
+
+@media (max-width: 768px) {
+    .recProductCaro img {
+        max-width: 300px;
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 768px) {
+    .recProductCaro img {
+        min-height: 140px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .recProductCaro img {
+        min-height: 160px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .recProductCaro img {
+        min-height: 185px;
+    }
+}
